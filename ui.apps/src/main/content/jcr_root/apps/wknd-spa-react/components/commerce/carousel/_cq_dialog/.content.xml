@@ -1,0 +1,23 @@
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          sling:resourceType="cq/gui/components/authoring/dialog"
+          jcr:primaryType="nt:unstructured">
+    <content jcr:primaryType="nt:unstructured"
+             sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+        <items jcr:primaryType="nt:unstructured">
+            <column jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <skus jcr:primaryType="nt:unstructured"
+                          sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                          fieldLabel="SKUs">
+                        <field jcr:primaryType="nt:unstructured"
+                               name="./sku"
+                               sling:resourceType="granite/ui/components/coral/foundation/form/textfield"/>
+                    </skus>
+                </items>
+            </column>
+        </items>
+    </content>
+</jcr:root>

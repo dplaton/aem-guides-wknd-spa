@@ -33,8 +33,9 @@ import './components/import-components';
 import './index.css';
 
 const client = new ApolloClient({
-    url: '/magento/graphql',
+    uri: 'http://localhost:3002/graphql',
     cache: new InMemoryCache(),
+    connectToDevTools: true,
 });
 
 document.addEventListener('DOMContentLoaded', () => {

@@ -37,11 +37,16 @@ const CarouselEditConfig = {
 
 const Carousel = (props) => {
     console.log(`Retrieve data for these skus ${props.sku}`);
-    const {data, loading} = useQuery(productsQuery, {
+    const {data, loading, error} = useQuery(productsQuery, {
         variables: {skus: props.sku},
     });
+    console.log(`Still loading?  ${loading}`);
 
-    if (!data) {
+    if (error) {
+        return <div>Error retrieving data</div>;
+    }
+
+    if (loading) {
         return <div>Loading...</div>;
     }
 
