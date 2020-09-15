@@ -13,14 +13,17 @@
     "@adobe/aem-react-editable-components": "^1.0.0",
     "@adobe/aem-spa-component-mapping": "^1.0.0",
     "@adobe/aem-spa-page-model-manager": "^1.0.0",
+    "@apollo/client": "^3.2.0",
     "custom-event-polyfill": "^1.0.7",
     "dompurify": "^2.0.7",
+    "graphql": "^15.3.0",
     "history": "^4.10.1",
     "react": "^16.12.0",
     "react-app-polyfill": "^1.0.5",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-slick": "^0.27.11"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
