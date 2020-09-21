@@ -4,6 +4,6 @@
           xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
           jcr:primaryType="cq:Component"
           jcr:title="Venia - SPA Carousel"
-          componentGroup="WKND SPA React - Commerce Carousel">
+          componentGroup="WKND SPA React - Commerce">
     <cq:editConfig jcr:primaryType="cq:EditConfig"/>
 </jcr:root>
